@@ -1,193 +1,218 @@
-/*
-  made from:
-  - https://meshlogic.github.io/ custom theme
-  - bootstrap3 flatly bootswatch theme
-  - A.Lusiani modifications
-*/
-body {
-  background-attachment: fixed;
-}
-#content {
-  background-image: url(../img/paper_grid_01.png);
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 10px;
-}
-.container {
-  max-width: 850px;
-}
-.navbar {
-  background-color: transparent;
-}
-.navbar .container {
-  background-color: #335577;
-}
-.navbar {
-  margin-bottom: 0px;
-}
-caption {
-  color: #202020;
-}
-@media print {
-  a[href]:after {
-    content: none;
-  }
-  abbr[title]:after {
-    content: none;
-  }
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: none;
-  }
+#container {
+    width: 960px;
+    margin: 0 auto;
 }
 
-/* from ipython.css, but does not work */
-/*
-.rendered_html tbody tr:nth-child(odd) {
-  background: #e0e0e0;
+#contentcolumn {
+    max-width: 760px;
 }
-.rendered_html tbody tr:nth-child(odd) {
-  background: #ececec;
-}
-*/
-
-.rendered_html table tbody tr:nth-of-type(odd) {
-  background-color: #e0e0e0;
-}
-.rendered_html table tbody tr:nth-of-type(even) {
-  background-color: #ececec;
+#q {
+    width: 150px;
 }
 
-/*******************************************************************************
-** Code Block
-*******************************************************************************/
-pre.code {
-  background-color: rgba(128, 128, 128, 0.1) !important;
-  color: black;
+img {
+    max-width: 90%;
+}
+
+.postbox {
+    border-bottom: 2px solid darkgrey;
+    margin-bottom: 12px;
+}
+
+.titlebox {
+    text-align: right;
+}
+
+#addthisbox {margin-bottom: 12px;}
+
+td.label {
+    /* Issue #290 */
+    background-color: inherit;
+}
+
+.footnote-reference {
+    /* Issue 290 */
+    vertical-align: super;
+    font-size: xx-small;
 }
 
 
-table.codetable {
-    background-color: rgba(128, 128, 128, 0.1);
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    border-collapse: initial;
-    overflow: visible;
-    margin: 1.2em 0;
-}
-table.codetable td {
-    max-width: 0;
-    padding: 0;
-    margin: 0;
-}
-
-/* Code style */
-td.code {
-    padding-left: 70px !important;
-    width: 100%;
-}
-td.code pre {
-    padding-left: 10px;
-    margin: 0;
-    background: 0 !important;
-    border: 0;
-}
-
-/* Line numbers style */
-td.linenos {
-    width: 10px;
-}
-td.linenos pre {
-    padding: 7px 10px;
-    margin: 0;
-    border: 0;
-    /*color: #303f9f;*/
-    color: #202020;
-    font-size: 13px;
-    background-color: rgba(0, 0, 0, 0.15);
-    /*background-color: rgba(128, 128, 128, 0.3);*/
-    cursor: default;
-    pointer-events: none;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-td.linenos pre a {
-    color: inherit;
-}
-.linenodiv {
-    width: 70px;
-}
-
-/*******************************************************************************
-** IN-LINE Code
-*******************************************************************************/
-tt, code {
-  background-color: rgba(128, 128, 128, 0.1) !important;
-  color: black !important;
-}
-
-/*******************************************************************************
-** Figures, Images
-*******************************************************************************/
-/* Flexbox Container for Figures */
-/* RST usage: .. container:: figures-container center */
-.figures-container {
-    width: 100%;
-    padding: 0;
-    margin: 1.5em 0 0 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-.figures-container > .figure {
-    margin: 0 12px 24px 12px !important;
-    clear: none !important;
-    /*flex-grow: 1;
-    flex-basis: 0;*/
-}
-
-/*** Figure ***/
-.figure {
-    display: table !important;
-}
-.figure img {
-    width: 100%;
-}
-.figure-radius {
-    border-radius: 4px;
-}
-.figure.align-left {
-    margin-left: 0;
-    margin-right: 1.2em;
-}
-.figure.align-right {
-    margin-right: 0;
-    margin-left: 1.2em;
-}
-.figure.align-center {
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-}
-
-/*** Thumbnail - Figure with frame ***/
-.thumbnail, .thumbnail > .caption {
-    border: 0;
-    background-color: #faf9f5;
-    /* box-shadow: 0px 2px 3px 0 rgba(0,0,0,0.4); */
-}
-
-/*** Caption ***/
 .caption {
-    font-size: 14px;
-    line-height: 1.285714286;
+    /* Issue 292 */
+    text-align: center;
+    padding-top: 1em;
+}
+
+div.figure > img,
+div.figure > a > img {
+    /* Issue 292 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote p, blockquote {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+ul.bricks > li {
+    display: inline;
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 5px;
+    line-height: 3;
+    white-space:nowrap;
+    margin: 3px;
+}
+
+.at300b, .stMainServices, .stButton, .stButton_gradient {
+    box-sizing: content-box;
+}
+
+pre, pre code {
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
+}
+
+article.post-micro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.image-block {
+    display: inline-block;
+}
+
+.flowr_row {
+    width: 100%;
+}
+
+.tags {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.tags > li {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    border-radius: 10px;
+}
+
+.tags > li a {
+    color: #fff;
+}
+
+.metadata p:before,
+.postlist .listdate:after,
+.translationslist p:before {
+    content: " — ";
+}
+
+.metadata p:first-of-type:before,
+.translationslist p:first-of-type:before {
+    content: "";
+}
+
+.metadata p,
+.translationslist p {
+    display: inline;
+}
+
+.posttranslations h3, .translationslist h3 {
+    display: inline;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.posttranslations h3:last-child, .translationslist h3:last-child {
+    display: none;
+}
+
+.entry-content {
+    margin-top: 1em;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand #blog-title {
+    padding: 15px 0;
+    display: inline-block;
+}
+
+.navbar-brand #logo {
+    max-width: 100%;
+}
+
+.navbar-brand>img {
+    display: inline;
+}
+
+.row {
     margin: 0;
-    padding: 8px 2px 8px 2px !important;
 }
-.figure > .caption {
-    display: table-caption;
-    caption-side: bottom;
-    position: relative;
+
+/* for alignment with Bootstrap's .entry-content styling */
+.entry-summary {
+    margin-top: 1em;
 }
-.thumbnail > .caption{
-    margin-top: -4px;
-    border-radius: 0 0 4px 4px;
+
+/* Custom page footer */
+#footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.codetable {
+    table-layout: fixed;
+}
+
+.codetable pre {
+    overflow-x: scroll;
+}
+
+/* hat tip bootstrap/html5 boilerplate */
+@media print {
+    *, *:before, *:after {
+        font-family: Garamond, Junicode, serif;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+
+    article .entry-title a[href]:after,
+    article .metadata a[href]:after,
+    article .tags a[href]:after {
+        content: "";
+    }
+
+    article .metadata .sourceline {
+        display: none;
+    }
+
+    article .metadata .linkline a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    .navbar {
+        display: none;
+    }
 }

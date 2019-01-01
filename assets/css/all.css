@@ -513,24 +513,255 @@ table.codetable { width: 100%;} td.linenos {text-align: right; width: 4em;}
         #cboxClose{position:absolute; top:5px; right:5px; display:block; background:url(images/controls.png) no-repeat top center; width:38px; height:19px; text-indent:-9999px;}
         #cboxClose:hover{background-position:bottom center;}
 
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#contentcolumn {
+    max-width: 760px;
+}
+#q {
+    width: 150px;
+}
+
+img {
+    max-width: 90%;
+}
+
+.postbox {
+    border-bottom: 2px solid darkgrey;
+    margin-bottom: 12px;
+}
+
+.titlebox {
+    text-align: right;
+}
+
+#addthisbox {margin-bottom: 12px;}
+
+td.label {
+    /* Issue #290 */
+    background-color: inherit;
+}
+
+.footnote-reference {
+    /* Issue 290 */
+    vertical-align: super;
+    font-size: xx-small;
+}
+
+
+.caption {
+    /* Issue 292 */
+    text-align: center;
+    padding-top: 1em;
+}
+
+div.figure > img,
+div.figure > a > img {
+    /* Issue 292 */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote p, blockquote {
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+ul.bricks > li {
+    display: inline;
+    background-color: lightblue;
+    padding: 8px;
+    border-radius: 5px;
+    line-height: 3;
+    white-space:nowrap;
+    margin: 3px;
+}
+
+.at300b, .stMainServices, .stButton, .stButton_gradient {
+    box-sizing: content-box;
+}
+
+pre, pre code {
+    white-space: pre;
+    word-wrap: normal;
+    overflow: auto;
+}
+
+article.post-micro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.image-block {
+    display: inline-block;
+}
+
+.flowr_row {
+    width: 100%;
+}
+
+.tags {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+    text-align: center;
+
+}
+
+.tags > li {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    border-radius: 10px;
+}
+
+.tags > li a {
+    color: #fff;
+}
+
+.metadata p:before,
+.postlist .listdate:after,
+.translationslist p:before {
+    content: " — ";
+}
+
+.metadata p:first-of-type:before,
+.translationslist p:first-of-type:before {
+    content: "";
+}
+
+.metadata p,
+.translationslist p {
+    display: inline;
+}
+
+.posttranslations h3, .translationslist h3 {
+    display: inline;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.posttranslations h3:last-child, .translationslist h3:last-child {
+    display: none;
+}
+
+.entry-content {
+    margin-top: 1em;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+}
+
+.navbar-brand #blog-title {
+    padding: 15px 0;
+    display: inline-block;
+}
+
+.navbar-brand #logo {
+    max-width: 100%;
+}
+
+.navbar-brand>img {
+    display: inline;
+}
+
+.row {
+    margin: 0;
+}
+
+/* for alignment with Bootstrap's .entry-content styling */
+.entry-summary {
+    margin-top: 1em;
+}
+
+/* Custom page footer */
+#footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.codetable {
+    table-layout: fixed;
+}
+
+.codetable pre {
+    overflow-x: scroll;
+}
+
+/* hat tip bootstrap/html5 boilerplate */
+@media print {
+    *, *:before, *:after {
+        font-family: Garamond, Junicode, serif;
+    }
+
+    body {
+        font-size: 12pt;
+    }
+
+    article .entry-title a[href]:after,
+    article .metadata a[href]:after,
+    article .tags a[href]:after {
+        content: "";
+    }
+
+    article .metadata .sourceline {
+        display: none;
+    }
+
+    article .metadata .linkline a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
 /*
-  made from:
-  - https://meshlogic.github.io/ custom theme
-  - bootstrap3 flatly bootswatch theme
-  - A.Lusiani modifications
+  assembleed using:
+  - https://meshlogic.github.io/assets/css/theme.css
+  - nikola/data/themes/bootstrap3/assets/css/theme.css
+ 
+  adaptations for flatly bootswatch theme, modified by A. Lusiani
 */
+
+h1, .h1, h2, .h2, h3, .h3 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
 body {
   background-attachment: fixed;
 }
 #content {
   background-image: url(../img/paper_grid_01.png);
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 10px;
+  padding-top: 15px;
 }
 .container {
   max-width: 850px;
 }
+
+/*******************************************************************************
+** Navbar
+*******************************************************************************/
 .navbar {
   background-color: transparent;
 }
@@ -543,6 +774,14 @@ body {
 caption {
   color: #202020;
 }
+
+#blog-title {
+  padding: 20px 0px !important;
+}
+
+/*******************************************************************************
+** Media
+*******************************************************************************/
 @media print {
   a[href]:after {
     content: none;
@@ -556,21 +795,15 @@ caption {
   }
 }
 
-/* from ipython.css, but does not work */
-/*
-.rendered_html tbody tr:nth-child(odd) {
-  background: #e0e0e0;
-}
-.rendered_html tbody tr:nth-child(odd) {
-  background: #ececec;
-}
-*/
-
 .rendered_html table tbody tr:nth-of-type(odd) {
   background-color: #e0e0e0;
 }
 .rendered_html table tbody tr:nth-of-type(even) {
   background-color: #ececec;
+}
+
+.rendered_html pre, .rendered_html code {
+  background-color: rgba(128, 128, 128, 0.1) !important;
 }
 
 /*******************************************************************************
@@ -580,7 +813,6 @@ pre.code {
   background-color: rgba(128, 128, 128, 0.1) !important;
   color: black;
 }
-
 
 table.codetable {
     background-color: rgba(128, 128, 128, 0.1);
@@ -705,4 +937,124 @@ tt, code {
 .thumbnail > .caption{
     margin-top: -4px;
     border-radius: 0 0 4px 4px;
+}
+
+/*******************************************************************************
+** customize defs in nikola_rst.css
+*******************************************************************************/
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning, div.sidebar {
+/* stolen from Boostrap 3 (.panel .panel-default) */
+  background-color: #aaa;
+}
+
+div.attention, div.caution, div.danger, div.error, div.warning {
+  /* stolen from Boostrap 3 (.panel .panel-danger) */
+  border-color: #EBCCD1;
+}
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title, div.sidebar p.sidebar-title,
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+/* stolen from Boostrap 3 (.panel .panel-default .panel-heading) */
+  background-color: #999999;
+  border-bottom: 1px solid #888888;
+}
+
+/* refine html4css1.css */
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 1em ;
+}
+
+/*******************************************************************************
+** Post header & container (https://meshlogic.github.io/assets/css/theme.css
+*******************************************************************************/
+.postindex > article {
+    clear: both;
+}
+
+/* Post header container */
+.h-entry > header {
+    border-top: 2px solid rgba(0, 0, 0, 0.33);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.33);
+}
+
+.h-entry > header > h1 {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.h-entry > header > h1 > a {
+    /* font-weight: 400; */
+    /* font-size: 28px; */
+}
+
+/* Post header > metadata */
+.h-entry > header > .metadata {
+    margin-top: -5px;
+    margin-bottom: 2.5px;
+}
+
+/* Post container */
+.entry-content {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+/* Post teaser container */
+.entry-summary {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.more{
+  clear: both;
+  padding-bottom: 8px;
+}
+
+/*******************************************************************************
+** customize listpages
+*******************************************************************************/
+
+.listpage > header > h1 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+/*******************************************************************************
+** Post navigation (https://meshlogic.github.io/assets/css/theme.css
+*******************************************************************************/
+.postpromonav {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.pager {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.pager li > a,
+.pager li > span {
+  background-color: #335577;
+}
+.pager li > a:hover,
+.pager li > a:focus {
+  background-color: #335577;
+  color: #c0c0c0;
+}
+
+/*******************************************************************************
+** add to nikola_ipython.css
+*******************************************************************************/
+div.cell {
+  padding: 0px 0px;
+  margin-bottom: 10px !important;
+}
+
+.more {
+  clear: both;
+  padding-bottom: 0px;;
 }
