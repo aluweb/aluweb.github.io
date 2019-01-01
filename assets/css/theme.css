@@ -1,0 +1,193 @@
+/*
+  made from:
+  - https://meshlogic.github.io/ custom theme
+  - bootstrap3 flatly bootswatch theme
+  - A.Lusiani modifications
+*/
+body {
+  background-attachment: fixed;
+}
+#content {
+  background-image: url(../img/paper_grid_01.png);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+.container {
+  max-width: 850px;
+}
+.navbar {
+  background-color: transparent;
+}
+.navbar .container {
+  background-color: #335577;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+caption {
+  color: #202020;
+}
+@media print {
+  a[href]:after {
+    content: none;
+  }
+  abbr[title]:after {
+    content: none;
+  }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: none;
+  }
+}
+
+/* from ipython.css, but does not work */
+/*
+.rendered_html tbody tr:nth-child(odd) {
+  background: #e0e0e0;
+}
+.rendered_html tbody tr:nth-child(odd) {
+  background: #ececec;
+}
+*/
+
+.rendered_html table tbody tr:nth-of-type(odd) {
+  background-color: #e0e0e0;
+}
+.rendered_html table tbody tr:nth-of-type(even) {
+  background-color: #ececec;
+}
+
+/*******************************************************************************
+** Code Block
+*******************************************************************************/
+pre.code {
+  background-color: rgba(128, 128, 128, 0.1) !important;
+  color: black;
+}
+
+
+table.codetable {
+    background-color: rgba(128, 128, 128, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border-collapse: initial;
+    overflow: visible;
+    margin: 1.2em 0;
+}
+table.codetable td {
+    max-width: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* Code style */
+td.code {
+    padding-left: 70px !important;
+    width: 100%;
+}
+td.code pre {
+    padding-left: 10px;
+    margin: 0;
+    background: 0 !important;
+    border: 0;
+}
+
+/* Line numbers style */
+td.linenos {
+    width: 10px;
+}
+td.linenos pre {
+    padding: 7px 10px;
+    margin: 0;
+    border: 0;
+    /*color: #303f9f;*/
+    color: #202020;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.15);
+    /*background-color: rgba(128, 128, 128, 0.3);*/
+    cursor: default;
+    pointer-events: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+td.linenos pre a {
+    color: inherit;
+}
+.linenodiv {
+    width: 70px;
+}
+
+/*******************************************************************************
+** IN-LINE Code
+*******************************************************************************/
+tt, code {
+  background-color: rgba(128, 128, 128, 0.1) !important;
+  color: black !important;
+}
+
+/*******************************************************************************
+** Figures, Images
+*******************************************************************************/
+/* Flexbox Container for Figures */
+/* RST usage: .. container:: figures-container center */
+.figures-container {
+    width: 100%;
+    padding: 0;
+    margin: 1.5em 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.figures-container > .figure {
+    margin: 0 12px 24px 12px !important;
+    clear: none !important;
+    /*flex-grow: 1;
+    flex-basis: 0;*/
+}
+
+/*** Figure ***/
+.figure {
+    display: table !important;
+}
+.figure img {
+    width: 100%;
+}
+.figure-radius {
+    border-radius: 4px;
+}
+.figure.align-left {
+    margin-left: 0;
+    margin-right: 1.2em;
+}
+.figure.align-right {
+    margin-right: 0;
+    margin-left: 1.2em;
+}
+.figure.align-center {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+/*** Thumbnail - Figure with frame ***/
+.thumbnail, .thumbnail > .caption {
+    border: 0;
+    background-color: #faf9f5;
+    /* box-shadow: 0px 2px 3px 0 rgba(0,0,0,0.4); */
+}
+
+/*** Caption ***/
+.caption {
+    font-size: 14px;
+    line-height: 1.285714286;
+    margin: 0;
+    padding: 8px 2px 8px 2px !important;
+}
+.figure > .caption {
+    display: table-caption;
+    caption-side: bottom;
+    position: relative;
+}
+.thumbnail > .caption{
+    margin-top: -4px;
+    border-radius: 0 0 4px 4px;
+}
