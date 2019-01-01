@@ -129,14 +129,18 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          ``STRIP_INDEXES``.  If it’s set to ``True``, end your links
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
-
 NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        # ("./curriculum.html", "Curriculum"),
-        # ("/archive.html", "Archive"),
-        # ("/categories/", "Tags"),
-        # ("/rss.xml", "RSS feed"),
-    ),
+  DEFAULT_LANG: (
+    ("/posts/", "Posts"),
+    ("/tags/", "Tags"),
+    ("/archive/", "Archive"),
+    ("/rss.xml", "RSS"),
+#    ((('/foo', 'FOO'),
+#      ('/bar', 'BAR')), 'BAZ'),
+#   ("./curriculum.html", "Curriculum"),
+#   ("/archive.html", "Archive"),
+#   ("/categories/", "Tags"),
+  ),
 }
 
 # Name of the theme to use.
@@ -173,16 +177,27 @@ THEME_COLOR = '#5670d4'
 # of a blog, while PAGES are just independent HTML pages.
 #
 
-POSTS = ()
+POSTS = (
+  ("posts/index.*",  "posts", "post.tmpl"),
+  ("posts/*.rst",    "posts", "post.tmpl"),
+  ("posts/*.md",     "posts", "post.tmpl"),
+  ("posts/*.adoc",   "posts", "post.tmpl"),
+  ("posts/*.txt",    "posts", "post.tmpl"),
+  ("posts/*.ipynb",  "posts", "post.tmpl"),
+  ("posts/*.html",   "posts", "post.tmpl"),
+)
 PAGES = (
-    ("pages/*.rst",  "", "story.tmpl"),
-    ("pages/*.txt",  "", "story.tmpl"),
-    ("pages/*.adoc", "", "story.tmpl"),
-    ("pages/*.html", "", "story.tmpl"),
+  ("pages/index.*",  "", "story.tmpl"),
+  ("pages/*.rst",    "", "story.tmpl"),
+  ("pages/*.md",     "", "story.tmpl"),
+  ("pages/*.adoc",   "", "story.tmpl"),
+  ("pages/*.txt",    "", "story.tmpl"),
+  ("pages/*.ipynb",  "", "story.tmpl"),
+  ("pages/*.html",   "", "story.tmpl"),
 )
 
 # And to avoid a conflict because blogs try to generate /index.html
-INDEX_PATH = "blog"
+INDEX_PATH = "posts"
 
 # Below this point, everything is optional
 
@@ -355,11 +370,13 @@ POSTS_SECTIONS = True
 # output / TRANSLATION[lang] / TAG_PATH / tag.xml (RSS feed for a tag)
  # (translatable)
 # TAG_PATH = "categories"
+TAG_PATH = "tags"
 
 # See TAG_PATH's "list of tags" for the default setting value. Can be overwritten
 # here any path relative to the output directory.
  # (translatable)
 # TAGS_INDEX_PATH = "tags.html"
+TAGS_INDEX_PATH = "tags/index.html"
 
 # If TAG_PAGES_ARE_INDEXES is set to True, each tag's page will contain
 # the posts themselves. If set to False, it will be just a list of links.
@@ -401,6 +418,7 @@ HIDDEN_TAGS = ['mathjax']
 # (translatable)
 # CATEGORY_PATH = "categories"
 # CATEGORY_PREFIX = "cat_"
+CATEGORY_PREFIX = ""
 
 # If CATEGORY_ALLOW_HIERARCHIES is set to True, categories can be organized in
 # hierarchies. For a post, the whole path in the hierarchy must be specified,
@@ -495,6 +513,9 @@ FRONT_INDEX_HEADER = {
 # output / TRANSLATION[lang] / ARCHIVE_PATH / YEAR / MONTH / DAY / index.html
 # ARCHIVE_PATH = ""
 # ARCHIVE_FILENAME = "archive.html"
+ARCHIVE_PATH = "archive"
+ARCHIVE_FILENAME = "index.html"
+
 
 # If ARCHIVES_ARE_INDEXES is set to True, each archive page which contains a list
 # of posts will contain the posts themselves. If set to False, it will be just a
@@ -794,11 +815,11 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 FAVICONS = (
-  ("shortcut icon", "./favicon.ico", "16x16"),
+  ("shortcut icon", "/favicon.ico", "16x16"),
 )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -924,7 +945,7 @@ STRIP_INDEXES = True
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata.
-PRETTY_URLS = False
+PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
@@ -947,21 +968,21 @@ PRETTY_URLS = False
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
-# MATHJAX_CONFIG = """
-# <script type="text/x-mathjax-config">
-# MathJax.Hub.Config({
-#     tex2jax: {
-#         inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-#         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
-#         processEscapes: true
-#     },
-#     displayAlign: 'left', // Change this to 'center' to center equations.
-#     "HTML-CSS": {
-#         styles: {'.MathJax_Display': {"margin": 0}}
-#     }
-# });
-# </script>
-# """
+MATHJAX_CONFIG = """
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
+        processEscapes: true
+    },
+    displayAlign: 'left', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+"""
 
 # Want to use KaTeX instead of MathJax? While KaTeX is less featureful,
 # it's faster and the output looks better.
@@ -1067,7 +1088,7 @@ COPY_SOURCES = False
 # SEARCH_FORM = """
 # <!-- DuckDuckGo custom search -->
 # <form method="get" id="search" action="https://duckduckgo.com/"
-#  class="navbar-form pull-left">
+#   class="navbar-form pull-left">
 # <input type="hidden" name="sites" value="%s">
 # <input type="hidden" name="k8" value="#444444">
 # <input type="hidden" name="k9" value="#D51920">
@@ -1082,7 +1103,8 @@ COPY_SOURCES = False
 # If you prefer a Google search form, here's an example that should just work:
 # SEARCH_FORM = """
 # <!-- Google custom search -->
-# <form method="get" action="https://www.google.com/search" class="navbar-form navbar-right" role="search">
+# <form method="get" action="https://www.google.com/search"
+#   class="navbar-form navbar-right" role="search">
 # <div class="form-group">
 # <input type="text" name="q" class="form-control" placeholder="Search">
 # </div>
@@ -1093,6 +1115,17 @@ COPY_SOURCES = False
 # </form>
 # <!-- End of custom search -->
 # """ % SITE_URL
+
+
+SEARCH_FORM = """
+<!-- Google custom search -->
+<form method="get" id="search" action="https://www.google.com/search"
+  class="navbar-form navbar-right">
+<input type="text" name="q" class="span2" placeholder="Search" style="margin-top: 4px;">
+<input type="hidden" name="sitesearch" value="%s">
+</form>
+<!-- End of custom search -->
+""" % SITE_URL
 
 # Use content distribution networks for jQuery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -1214,18 +1247,7 @@ GLOBAL_CONTEXT = {}
 # rendered
 GLOBAL_CONTEXT_FILLER = []
 
-MATHJAX_CONFIG = """
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
-        processEscapes: true
-    },
-    displayAlign: 'left', // Change this to 'center' to center equations.
-    "HTML-CSS": {
-        styles: {'.MathJax_Display': {"margin": 0}}
-    }
-});
-</script>
-"""
+##
+## navstories
+##
+
