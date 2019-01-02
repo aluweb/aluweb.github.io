@@ -133,7 +133,9 @@ NAVIGATION_LINKS = {
   DEFAULT_LANG: (
     (
       (
-        ("/tauspectral", "Tau Spectral Functions"),
+        ("/page1", "asciidoc test 1"),
+        ("/page3", "asciidoc test 2"),
+        ("/page2", "R notebook test"),
       ),
       "Pages"
     ),
