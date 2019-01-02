@@ -7,27 +7,63 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>/</loc>
-  <lastmod>2019-01-01T23:51:00Z</lastmod>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
  <url>
   <loc>/archive/</loc>
-  <lastmod>2019-01-01T22:51:00Z</lastmod>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/archive/2017/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
  <url>
   <loc>/archive/2018/</loc>
   <lastmod>2019-01-01T22:51:00Z</lastmod>
  </url>
  <url>
+  <loc>/galleries/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/page1/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/page2/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/page3/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>/posts/</loc>
-  <lastmod>2019-01-01T23:47:00Z</lastmod>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/aleph-non-strange-2014/</loc>
   <lastmod>2019-01-01T23:47:00Z</lastmod>
  </url>
  <url>
+  <loc>/posts/first-post/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/page2/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/prova-nb/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/posts/test-markdown/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>/tags/</loc>
-  <lastmod>2019-01-01T23:56:00Z</lastmod>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/aleph/</loc>
@@ -50,7 +86,19 @@
   <lastmod>2019-01-01T22:51:00Z</lastmod>
  </url>
  <url>
+  <loc>/tags/r-bloggers/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/tags/r-project/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>/tags/vector/</loc>
   <lastmod>2019-01-01T23:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/tauspectral/</loc>
+  <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
 </urlset>

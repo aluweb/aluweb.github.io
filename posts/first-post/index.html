@@ -2,9 +2,8 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Update of ALEPH 2005 publication with new unfolding method">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Non-strange spectral functions, ALEPH, 2014 | Tau Spectral Functions</title>
+<title>First post | Tau Spectral Functions</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/ipython.min.css" rel="stylesheet" type="text/css">
 <link href="../../assets/css/nikola_ipython.css" rel="stylesheet" type="text/css">
@@ -14,19 +13,21 @@
 <link rel="canonical" href=".">
 <link rel="shortcut icon" href="../../favicon.ico" sizes="16x16">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Alberto Lusiani">
-<link rel="prev" href="../test-markdown/" title="Test Markdown gg" type="text/html">
+<link rel="prev" href="../page2/" title="test python notebook" type="text/html">
+<link rel="next" href="../prova-nb/" title="prova nb" type="text/html">
 <meta property="og:site_name" content="Tau Spectral Functions">
-<meta property="og:title" content="Non-strange spectral functions, ALEPH, 2014">
-<meta property="og:url" content="/posts/aleph-non-strange-2014/">
-<meta property="og:description" content="Update of ALEPH 2005 publication with new unfolding method">
+<meta property="og:title" content="First post">
+<meta property="og:url" content="/posts/first-post/">
+<meta property="og:description" content="This is a Fake Site
+It pretends to be about things, but is really just an example.
+Click Me!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
+Phasellus a ullamcorper le">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2018-09-01T13:00:00+01:00">
-<meta property="article:tag" content="ALEPH">
-<meta property="article:tag" content="axial">
-<meta property="article:tag" content="data">
+<meta property="article:published_time" content="2018-02-04T13:03:54+01:00">
 <meta property="article:tag" content="mathjax">
-<meta property="article:tag" content="non-strange">
-<meta property="article:tag" content="vector">
+<meta property="article:tag" content="r-bloggers">
+<meta property="article:tag" content="r-project">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -82,13 +83,13 @@
         <div class="row">
             
             
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Non-strange spectral functions, ALEPH, 2014</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">First post</a></h1>
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
                     Alberto Lusiani
             </span></p>
-            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2018-09-01T13:00:00+01:00" itemprop="datePublished" title="2018-09-01 13:00">2018-09-01 13:00</time></a></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2018-02-04T13:03:54+01:00" itemprop="datePublished" title="2018-02-04 13:03">2018-02-04 13:03</time></a></p>
             
 
         </div>
@@ -96,60 +97,33 @@
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<h3><a href="https://inspirehep.net/record/1267648">Update of the ALEPH non-strange spectral functions from hadronic $\tau$ decays</a></h3>
-<p>Michel Davier (Orsay, LAL), Andreas Höcker (CERN), Bogdan Malaescu
-(Paris U., VI-VII), Chang-Zheng Yuan (Beijing, Inst. High Energy Phys.),
-Zhiqing Zhang (Orsay, LAL)</p>
-<ul>
-<li>
-<strong>Eur.Phys.J. C74 (2014) no.3, 2803</strong> (2014-03-15)</li>
-<li>DOI: <a href="https://doi.org/10.1140/epjc/s10052-014-2803-9">10.1140/epjc/s10052-014-2803-9</a>
-</li>
-<li>e-Print: <a href="http://arXiv.org/abs/arXiv:1312.1501">arXiv:1312.1501</a>
-    [hep-ex] | <a href="http://arXiv.org/pdf/1312.1501.pdf">PDF</a>
-</li>
-</ul>
-<h4>Abstract</h4>
-<p>An update of the ALEPH non-strange spectral functions from hadronic
-\$\tau\$ decays is presented. Compared to the 2005 ALEPH publication,
-the main improvement is related to the use of a new method to unfold the
-measured mass spectra from detector effects. This procedure also
-corrects a previous problem in the correlations between the unfolded
-mass bins. Results from QCD studies and for the evaluation of the
-hadronic vacuum polarisation contribution to the anomalous muon magnetic
-moment are derived using the new spectral functions. They are found in
-agreement with published results based on the previous set of spectral
-functions.</p>
-<h4>Spectral functions</h4>
-<p>The normalized invariant mass squared
-distributions of the hadrons from tau decay are reported, in 80
-bins. The normalization is 100 times the relevant tau branching
-fraction. <strong>V</strong> and <strong>A</strong> denote the sums of vector and axial
-invariant mass squared distributions of vector and axial decay modes.</p>
-<ol>
-<li><a href="specfun13/aleph13_vplusa.f"><strong>V+A</strong></a></li>
-<li><a href="specfun13/aleph13_vminusa.f"><strong>V-A</strong></a></li>
-<li><a href="specfun13/aleph13_v.f"><strong>V</strong></a></li>
-<li><a href="specfun13/aleph13_a.f"><strong>A</strong></a></li>
-<li><a href="specfun13/aleph13_pipi0.f"><strong>$\pi\pi^0$</strong></a></li>
-<li><a href="specfun13/aleph13_pi2pi0.f"><strong>$\pi2\pi^0$</strong></a></li>
-<li><a href="specfun13/aleph13_3pi.f"><strong>$3\pi$</strong></a></li>
-<li><a href="specfun13/aleph13_3pipi0.f"><strong>$3\pi\pi^0$</strong></a></li>
-<li><a href="specfun13/aleph13_pi3pi0.f"><strong>$\pi3\pi^0$</strong></a></li>
-<li><a href="specfun13/aleph13_v_a.f"><strong>Covariance V vs. A</strong></a></li>
-</ol>
+<div class="admonition admonition-this-is-a-fake-site jumbotron col-md-6">
+<p class="first admonition-title">This is a Fake Site</p>
+<p>It pretends to be about things, but is really just an example.</p>
+<div class="last"><a href="https://getnikola.com/" class="btn btn-primary btn-lg">Click Me!</a></div>
+</div>
+<p class="col-md-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
+Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
+gravida quam a mi dignissim consequat. Morbi sed iaculis mi. Vivamus ultrices
+mattis euismod. Mauris aliquet magna eget mauris volutpat a egestas leo rhoncus.
+In hac habitasse platea dictumst. Ut sed mi arcu. Nullam id massa eu orci
+convallis accumsan. Nunc faucibus sodales justo ac ornare. In eu congue eros.
+Pellentesque iaculis risus urna. Proin est lorem, scelerisque non elementum at,
+semper vel velit. Phasellus consectetur orci vel tortor tempus imperdiet. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos.</p>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul itemprop="keywords" class="tags">
-<li><a class="tag p-category" href="../../tags/aleph/" rel="tag">ALEPH</a></li>
-            <li><a class="tag p-category" href="../../tags/axial/" rel="tag">axial</a></li>
-            <li><a class="tag p-category" href="../../tags/data/" rel="tag">data</a></li>
-            <li><a class="tag p-category" href="../../tags/non-strange/" rel="tag">non-strange</a></li>
-            <li><a class="tag p-category" href="../../tags/vector/" rel="tag">vector</a></li>
+<li><a class="tag p-category" href="../../tags/r-bloggers/" rel="tag">r-bloggers</a></li>
+            <li><a class="tag p-category" href="../../tags/r-project/" rel="tag">r-project</a></li>
         </ul>
 <ul class="pager hidden-print">
 <li class="previous">
-                <a href="../test-markdown/" rel="prev" title="Test Markdown gg">Previous post</a>
+                <a href="../page2/" rel="prev" title="test python notebook">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../prova-nb/" rel="next" title="prova nb">Next post</a>
             </li>
         </ul></nav></aside><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML" integrity="sha256-SDRP1VVYu+tgAGKhddBSl5+ezofHKZeI+OzxakbIe/Y=" crossorigin="anonymous"></script><script type="text/x-mathjax-config">
 MathJax.Hub.Config({

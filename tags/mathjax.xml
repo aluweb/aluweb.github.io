@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tau Spectral Functions (Posts about mathjax)</title><link>/</link><description></description><atom:link href="/tags/mathjax.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Tue, 01 Jan 2019 23:56:29 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Non-strange spectral functions, ALEPH, 2014</title><link>/posts/aleph-non-strange-2014/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;h3&gt;&lt;a href="https://inspirehep.net/record/1267648"&gt;Update of the ALEPH non-strange spectral functions from hadronic $\tau$ decays&lt;/a&gt;&lt;/h3&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tau Spectral Functions (Posts about mathjax)</title><link>/</link><description></description><atom:link href="/tags/mathjax.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Wed, 02 Jan 2019 10:27:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Non-strange spectral functions, ALEPH, 2014</title><link>/posts/aleph-non-strange-2014/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;h3&gt;&lt;a href="https://inspirehep.net/record/1267648"&gt;Update of the ALEPH non-strange spectral functions from hadronic $\tau$ decays&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Michel Davier (Orsay, LAL), Andreas Höcker (CERN), Bogdan Malaescu
 (Paris U., VI-VII), Chang-Zheng Yuan (Beijing, Inst. High Energy Phys.),
 Zhiqing Zhang (Orsay, LAL)&lt;/p&gt;
@@ -37,4 +37,56 @@ invariant mass squared distributions of vector and axial decay modes.&lt;/p&gt;
 &lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_3pipi0.f"&gt;&lt;strong&gt;$3\pi\pi^0$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_pi3pi0.f"&gt;&lt;strong&gt;$\pi3\pi^0$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_v_a.f"&gt;&lt;strong&gt;Covariance V vs. A&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;</description><category>ALEPH</category><category>axial</category><category>data</category><category>mathjax</category><category>non-strange</category><category>vector</category><guid>/posts/aleph-non-strange-2014/</guid><pubDate>Sat, 01 Sep 2018 12:00:00 GMT</pubDate></item></channel></rss>
+&lt;/ol&gt;&lt;/div&gt;</description><category>ALEPH</category><category>axial</category><category>data</category><category>mathjax</category><category>non-strange</category><category>vector</category><guid>/posts/aleph-non-strange-2014/</guid><pubDate>Sat, 01 Sep 2018 12:00:00 GMT</pubDate></item><item><title>Test Markdown gg</title><link>/posts/test-markdown/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;p&gt;hey math $a=b$&lt;/p&gt;
+&lt;p&gt;hey \(\alpha=\beta\)&lt;/p&gt;
+&lt;p&gt;\[
+\alpha=\beta
+\]&lt;/p&gt;
+&lt;p&gt;aaa bbb ggg&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><guid>/posts/test-markdown/</guid><pubDate>Wed, 07 Feb 2018 17:09:57 GMT</pubDate></item><item><title>prova nb</title><link>/posts/prova-nb/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div tabindex="-1" id="notebook" class="border-box-sizing"&gt;
+    &lt;div class="container" id="notebook-container"&gt;
+
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;hey does math work?&lt;/p&gt;
+&lt;p&gt;aa
+$
+\alpha = \beta
+$
+bb&lt;/p&gt;
+&lt;p&gt;aa $\alpha$ bb&lt;/p&gt;
+$$
+\alpha = \beta
+$$
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+</description><category>mathjax</category><guid>/posts/prova-nb/</guid><pubDate>Wed, 07 Feb 2018 15:37:57 GMT</pubDate></item><item><title>First post</title><link>/posts/first-post/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;div class="admonition admonition-this-is-a-fake-site jumbotron col-md-6"&gt;
+&lt;p class="first admonition-title"&gt;This is a Fake Site&lt;/p&gt;
+&lt;p&gt;It pretends to be about things, but is really just an example.&lt;/p&gt;
+&lt;div class="last"&gt;&lt;a href="https://getnikola.com/" class="btn btn-primary btn-lg"&gt;Click Me!&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p class="col-md-5"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non nunc turpis.
+Phasellus a ullamcorper leo. Sed fringilla dapibus orci eu ornare. Quisque
+gravida quam a mi dignissim consequat. Morbi sed iaculis mi. Vivamus ultrices
+mattis euismod. Mauris aliquet magna eget mauris volutpat a egestas leo rhoncus.
+In hac habitasse platea dictumst. Ut sed mi arcu. Nullam id massa eu orci
+convallis accumsan. Nunc faucibus sodales justo ac ornare. In eu congue eros.
+Pellentesque iaculis risus urna. Proin est lorem, scelerisque non elementum at,
+semper vel velit. Phasellus consectetur orci vel tortor tempus imperdiet. Class
+aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+himenaeos.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><category>r-bloggers</category><category>r-project</category><guid>/posts/first-post/</guid><pubDate>Sun, 04 Feb 2018 12:03:54 GMT</pubDate></item></channel></rss>
