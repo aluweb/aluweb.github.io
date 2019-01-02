@@ -14,12 +14,11 @@
 @gray-light:             #b4bcc2; // #999
 @gray-lighter:           #ecf0f1; // #eee
 
-@brand-primary:         #202020; // #2C3E50;
-@brand-success:         #0a60a4; // #335577; // #0a60a4; // #18BC9C;
-@brand-info:            #1e7440; // #3498DB;
-@brand-warning:         #a2680c; // #F39C12;
-@brand-danger:          #9a3228; // #E74C3C;
-
+@brand-primary:         #2C3E50;
+@brand-success:         #18BC9C;
+@brand-info:            #3498DB;
+@brand-warning:         #F39C12;
+@brand-danger:          #E74C3C;
 
 //== Scaffolding
 //
@@ -31,7 +30,7 @@
 @text-color:            @brand-primary;
 
 //** Global textual link color.
-@link-color:            @brand-success;
+@link-color:            #0a60a4;
 //** Link hover color set via `darken()` function.
 @link-hover-color:      @link-color;
 //** Link hover decoration.
@@ -42,11 +41,11 @@
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-@font-family-sans-serif:  Helvetica, Arial, sans-serif;
-@font-family-serif:       "PT Serif", Georgia, "Times New Roman", Times, serif;
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, "Bitstream Vera Sans", "TeX Gyre Heros", Arimo, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, "Bitstream Vera Serif", serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-@font-family-monospace:   "Courier New", Consolas, monospace;
-@font-family-base:        @font-family-serif;
+@font-family-monospace:   Menlo, Monaco, Consolas, "Bitsream Vera Sans Mono", "Courier New", Courier, monospace;
+@font-family-base:        @font-family-sans-serif;
 
 @font-size-base:          15px;
 @font-size-large:         ceil((@font-size-base * 1.18)); //
@@ -66,7 +65,7 @@
 
 //** By default, this inherits from the `<body>`.
 @headings-font-family:    @font-family-base;
-@headings-font-weight:    bold;
+@headings-font-weight:    700;
 @headings-line-height:    1.1;
 @headings-color:          inherit;
 
@@ -496,19 +495,19 @@
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-@state-success-text:             #fff;
+@state-success-text:             @text-color;
 @state-success-bg:               @brand-success;
 @state-success-border:           @brand-success;
 
-@state-info-text:                #fff;
+@state-info-text:                @text-color;
 @state-info-bg:                  @brand-info;
 @state-info-border:              @brand-info;
 
-@state-warning-text:             #fff;
+@state-warning-text:             @text-color;
 @state-warning-bg:               @brand-warning;
 @state-warning-border:           @brand-warning;
 
-@state-danger-text:              #fff;
+@state-danger-text:              @text-color;
 @state-danger-bg:                @brand-danger;
 @state-danger-border:            @brand-danger;
 
