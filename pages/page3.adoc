@@ -35,4 +35,7 @@ latexmath latexmath:[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 
 asciimath asciimath:[x/x={(1,if x!=0),(text{undefined},if x=0):}]
 
-again
+test path haldlers
+
+* link:link://slug/page2[go to page2]
+* link:link://tag/axial[tag axial]

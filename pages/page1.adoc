@@ -51,5 +51,3 @@ inline math :math:`\frac{\sum_{t=0}^{N}f(t,k) }{N}` and so
 latexmath latexmath:[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 
 asciimath asciimath:[x/x={(1,if x!=0),(text{undefined},if x=0):}]
-
-

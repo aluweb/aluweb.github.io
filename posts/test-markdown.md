@@ -17,4 +17,5 @@ hey \\(\alpha=\beta\\)
 \alpha=\beta
 \\]
 
-aaa bbb ggg
+
+[tag axial](link://tag/axial)
