@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>/galleries/rss.xml</loc>
-  <lastmod>2019-01-02T10:33:00Z</lastmod>
+  <lastmod>2019-01-02T22:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/rss.xml</loc>
@@ -15,7 +15,7 @@
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2019-01-02T10:33:00Z</lastmod>
+  <lastmod>2019-01-02T22:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/aleph.xml</loc>
