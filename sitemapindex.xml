@@ -7,30 +7,34 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>/rss.xml</loc>
-  <lastmod>2019-01-01T23:45:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2019-01-01T23:47:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/aleph.xml</loc>
-  <lastmod>2019-01-01T23:45:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/axial.xml</loc>
-  <lastmod>2019-01-01T23:45:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>/tags/data.xml</loc>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/mathjax.xml</loc>
-  <lastmod>2019-01-01T23:45:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/non-strange.xml</loc>
-  <lastmod>2019-01-01T23:45:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/vector.xml</loc>
-  <lastmod>2019-01-01T23:45:00Z</lastmod>
+  <lastmod>2019-01-01T23:56:00Z</lastmod>
  </sitemap>
 </sitemapindex>
