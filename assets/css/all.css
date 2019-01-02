@@ -1058,3 +1058,17 @@ div.cell {
   clear: both;
   padding-bottom: 0px;;
 }
+
+/*******************************************************************************
+** tags
+*******************************************************************************/
+
+.tags > li {
+  font-weight: normal;
+  background-color: #335577;
+}
+
+.badge {
+  font-weight: normal;
+  background-color: #335577;
+}
