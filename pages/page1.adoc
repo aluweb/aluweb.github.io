@@ -1,0 +1,55 @@
+////
+.. title: asciidoc test
+.. slug: page1
+.. date: 2017-09-09 23:39:43 UTC+02:00
+.. tags: mathjax
+.. category: 
+.. link: 
+.. description: asciidoc test
+.. type: text
+////
+
+[cols="a,,10a", frame="none", grid="none", width="100%"]
+|===
+|
+image::/images/alusiani-picture.jpg[]
+|
+|
+[cols="1,1", grid="all", frame="all"]
+!===
+!
+a.lusiani at sns.it	+
+Scuola Normale Superiore +
+Piazza dei Cavalieri 7	+
+56126 Pisa PI
+! 
+alberto.lusiani at pi.infn.it +
+INFN, sezione di Pisa +
+Largo Bruno Pontecorvo 3 +
+56127 Pisa PI
+!===
+|===
+
+++++
+   <div style="clear: left;"></div>
+++++
+
+== header2
+
+=== header3
+
+math \( a=b \) after
+
+\[
+  C = \alpha + \beta Y^{ \gamma \delta } + \epsilon
+\]
+
+////
+inline math :math:`\frac{\sum_{t=0}^{N}f(t,k) }{N}` and so
+////
+
+latexmath latexmath:[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
+
+asciimath asciimath:[x/x={(1,if x!=0),(text{undefined},if x=0):}]
+
+again
