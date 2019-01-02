@@ -11,11 +11,11 @@
  </sitemap>
  <sitemap>
   <loc>/rss.xml</loc>
-  <lastmod>2019-01-02T10:33:00Z</lastmod>
+  <lastmod>2019-01-02T22:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2019-01-02T22:09:00Z</lastmod>
+  <lastmod>2019-01-02T22:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/aleph.xml</loc>
@@ -31,7 +31,7 @@
  </sitemap>
  <sitemap>
   <loc>/tags/mathjax.xml</loc>
-  <lastmod>2019-01-02T10:33:00Z</lastmod>
+  <lastmod>2019-01-02T22:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/non-strange.xml</loc>
