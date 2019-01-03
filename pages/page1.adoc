@@ -34,20 +34,35 @@ Largo Bruno Pontecorvo 3 +
    <div style="clear: left;"></div>
 ++++
 
-== header2
+== Level 1
+Text.
 
-=== header3
+=== Level 2
 
-math \( a=b \) after
+==== Level 3
 
+===== Level 4
+
+inline math \( a=b \) after
+
+display math
 \[
   C = \alpha + \beta Y^{ \gamma \delta } + \epsilon
 \]
+after
 
-////
-inline math :math:`\frac{\sum_{t=0}^{N}f(t,k) }{N}` and so
-////
++:math:+ :math:`\frac{\sum_{t=0}^{N}f(t,k) }{N}` after
 
-latexmath latexmath:[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
++:latexmath:+ latexmath:[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 
-asciimath asciimath:[x/x={(1,if x!=0),(text{undefined},if x=0):}]
++:asciimath:+ asciimath:[x/x={(1,if x!=0),(text{undefined},if x=0):}]
+
+inline math dollar $\alpha=\beta$ after
+
++:latexmath:+ inline \displaystyle dollar latexmath:[$\displaystyle\frac{\alpha}{\beta}$] after
+
+display math dollar dollar $$\alpha=\beta$$ after
+
+test path handlers:
+link:link://slug/page2[go to page2],
+link:link://tag/axial[tag axial]
