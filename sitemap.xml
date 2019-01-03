@@ -7,15 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>/</loc>
-  <lastmod>2019-01-02T22:08:00Z</lastmod>
+  <lastmod>2019-01-03T09:59:00Z</lastmod>
  </url>
  <url>
   <loc>/archive/</loc>
-  <lastmod>2019-01-02T10:27:00Z</lastmod>
- </url>
- <url>
-  <loc>/archive/2017/</loc>
-  <lastmod>2019-01-02T10:27:00Z</lastmod>
+  <lastmod>2019-01-03T09:59:00Z</lastmod>
  </url>
  <url>
   <loc>/archive/2018/</loc>
@@ -34,12 +30,8 @@
   <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
  <url>
-  <loc>/page3/</loc>
-  <lastmod>2019-01-02T10:27:00Z</lastmod>
- </url>
- <url>
   <loc>/posts/</loc>
-  <lastmod>2019-01-02T22:25:00Z</lastmod>
+  <lastmod>2019-01-03T09:59:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/aleph-non-strange-2014/</loc>
@@ -47,10 +39,6 @@
  </url>
  <url>
   <loc>/posts/first-post/</loc>
-  <lastmod>2019-01-02T10:27:00Z</lastmod>
- </url>
- <url>
-  <loc>/posts/page2/</loc>
   <lastmod>2019-01-02T10:27:00Z</lastmod>
  </url>
  <url>
