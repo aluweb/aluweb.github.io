@@ -133,8 +133,8 @@ NAVIGATION_LINKS = {
   DEFAULT_LANG: (
     (
       (
-        ("/page1", "asciidoc test 1"),
-        ("/page2", "R notebook test"),
+        ("link://slug/asciidoc-test", "asciidoc test"),
+        ("link://slug/E989-crystal-energy", "E989 crystal energy in fill"),
       ),
       "Pages"
     ),
@@ -142,9 +142,6 @@ NAVIGATION_LINKS = {
     ("/tags/", "Tags"),
     ("/archive/", "Archive"),
     ("/rss.xml", "RSS"),
-#    ("/tauspectral", "Tau Spectral Functions"),
-#    ((('/foo', 'FOO'),
-#      ('/bar', 'BAR')), 'BAZ'),
   ),
 }
 

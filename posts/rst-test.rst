@@ -1,10 +1,10 @@
-.. title: First post
-.. slug: first-post
+.. title: reStructuredText test
+.. slug: rst-test
 .. date: 2018-02-04 13:03:54 UTC+01:00
-.. tags: mathjax, r-project, r-bloggers
+.. tags: mathjax, rst
 .. category: 
 .. link: 
-.. description: 
+.. description: test reStructuredText features
 .. type: text
 
 .. class:: jumbotron col-md-6
@@ -16,7 +16,6 @@
     .. raw:: html
 
        <a href="https://getnikola.com/" class="btn btn-primary btn-lg">Click Me!</a>
-
 
 .. class:: col-md-5
 
