@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALU test web site (Posts about mathjax)</title><link>/</link><description></description><atom:link href="/tags/mathjax.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 05 Jan 2019 10:55:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>markdown math test</title><link>/posts/markdown-math-test/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;p&gt;math with &lt;code&gt;\(&lt;/code&gt;  \(\alpha=\beta\)&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ALU test web site (Posts about mathjax)</title><link>/</link><description></description><atom:link href="/tags/mathjax.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sat, 05 Jan 2019 17:32:26 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>markdown math test</title><link>/posts/markdown-math-test/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;p&gt;math with &lt;code&gt;\(&lt;/code&gt;  \(\alpha=\beta\)&lt;/p&gt;
 &lt;p&gt;math with &lt;code&gt;\[&lt;/code&gt;  \[\alpha=\beta\]&lt;/p&gt;
 &lt;p&gt;inline math &lt;code&gt;$&lt;/code&gt; $\tau \to \Lambda \frac{a}{b}$&lt;/p&gt;
 &lt;p&gt;displaystyle inline math &lt;code&gt;$&lt;/code&gt; $\displaystyle \tau \to \Lambda \frac{a}{b}$&lt;/p&gt;
@@ -10,41 +10,7 @@
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;notebook markdown comment with math&lt;/p&gt;
-&lt;p&gt;inline &lt;code&gt;\(&lt;/code&gt; pre
-$
-\alpha = \frac{\beta}{\gamma}
-$
-post&lt;/p&gt;
-&lt;p&gt;inline &lt;code&gt;$&lt;/code&gt;
-pre $\alpha = \frac{\beta}{\gamma}$ post&lt;/p&gt;
-&lt;p&gt;inline &lt;code&gt;$\displaystyle&lt;/code&gt;
-pre $\displaystyle\alpha = \frac{\beta}{\gamma}$ post&lt;/p&gt;
-&lt;p&gt;display &lt;code&gt;\[&lt;/code&gt; pre
-$$
-\alpha = \frac{\beta}{\gamma}
-$$
-post&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [ ]:&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
-&lt;div class=" highlight hl-ipython3"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-</description><category>mathjax</category><guid>/posts/notebook-math-test/</guid><pubDate>Wed, 07 Feb 2018 15:37:57 GMT</pubDate></item><item><title>reStructuredText test</title><link>/posts/rst-test/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;div class="admonition admonition-this-is-a-fake-site jumbotron col-md-6"&gt;
+&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="/posts/notebook-math-test/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description><category>mathjax</category><guid>/posts/notebook-math-test/</guid><pubDate>Wed, 07 Feb 2018 15:37:57 GMT</pubDate></item><item><title>reStructuredText test</title><link>/posts/rst-test/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;div class="admonition admonition-this-is-a-fake-site jumbotron col-md-6"&gt;
 &lt;p class="first admonition-title"&gt;This is a Fake Site&lt;/p&gt;
 &lt;p&gt;It pretends to be about things, but is really just an example.&lt;/p&gt;
 &lt;div class="last"&gt;&lt;a href="https://getnikola.com/" class="btn btn-primary btn-lg"&gt;Click Me!&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
@@ -57,42 +23,4 @@ convallis accumsan. Nunc faucibus sodales justo ac ornare. In eu congue eros.
 Pellentesque iaculis risus urna. Proin est lorem, scelerisque non elementum at,
 semper vel velit. Phasellus consectetur orci vel tortor tempus imperdiet. Class
 aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-himenaeos.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><category>rst</category><guid>/posts/rst-test/</guid><pubDate>Sun, 04 Feb 2018 12:03:54 GMT</pubDate></item><item><title>Non-strange spectral functions, ALEPH, 2014</title><link>/posts/aleph-non-strange-2014/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;div&gt;&lt;h3&gt;&lt;a href="https://inspirehep.net/record/1267648"&gt;Update of the ALEPH non-strange spectral functions from hadronic $\tau$ decays&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Michel Davier (Orsay, LAL), Andreas Höcker (CERN), Bogdan Malaescu
-(Paris U., VI-VII), Chang-Zheng Yuan (Beijing, Inst. High Energy Phys.),
-Zhiqing Zhang (Orsay, LAL)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Eur.Phys.J. C74 (2014) no.3, 2803&lt;/strong&gt; (2014-03-15)&lt;/li&gt;
-&lt;li&gt;DOI: &lt;a href="https://doi.org/10.1140/epjc/s10052-014-2803-9"&gt;10.1140/epjc/s10052-014-2803-9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;e-Print: &lt;a href="http://arXiv.org/abs/arXiv:1312.1501"&gt;arXiv:1312.1501&lt;/a&gt;
-    [hep-ex] | &lt;a href="http://arXiv.org/pdf/1312.1501.pdf"&gt;PDF&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Abstract&lt;/h4&gt;
-&lt;p&gt;An update of the ALEPH non-strange spectral functions from hadronic
-\$\tau\$ decays is presented. Compared to the 2005 ALEPH publication,
-the main improvement is related to the use of a new method to unfold the
-measured mass spectra from detector effects. This procedure also
-corrects a previous problem in the correlations between the unfolded
-mass bins. Results from QCD studies and for the evaluation of the
-hadronic vacuum polarisation contribution to the anomalous muon magnetic
-moment are derived using the new spectral functions. They are found in
-agreement with published results based on the previous set of spectral
-functions.&lt;/p&gt;
-&lt;h4&gt;Spectral functions&lt;/h4&gt;
-&lt;p&gt;The normalized invariant mass squared
-distributions of the hadrons from tau decay are reported, in 80
-bins. The normalization is 100 times the relevant tau branching
-fraction. &lt;strong&gt;V&lt;/strong&gt; and &lt;strong&gt;A&lt;/strong&gt; denote the sums of vector and axial
-invariant mass squared distributions of vector and axial decay modes.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_vplusa.f"&gt;&lt;strong&gt;V+A&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_vminusa.f"&gt;&lt;strong&gt;V-A&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_v.f"&gt;&lt;strong&gt;V&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_a.f"&gt;&lt;strong&gt;A&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_pipi0.f"&gt;&lt;strong&gt;$\pi\pi^0$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_pi2pi0.f"&gt;&lt;strong&gt;$\pi2\pi^0$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_3pi.f"&gt;&lt;strong&gt;$3\pi$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_3pipi0.f"&gt;&lt;strong&gt;$3\pi\pi^0$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_pi3pi0.f"&gt;&lt;strong&gt;$\pi3\pi^0$&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="/posts/aleph-non-strange-2014/specfun13/aleph13_v_a.f"&gt;&lt;strong&gt;Covariance V vs. A&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;&lt;/div&gt;</description><category>ALEPH</category><category>axial</category><category>data</category><category>mathjax</category><category>non-strange</category><category>vector</category><guid>/posts/aleph-non-strange-2014/</guid><pubDate>Sat, 06 Jan 2018 12:00:00 GMT</pubDate></item></channel></rss>
+himenaeos.&lt;/p&gt;&lt;/div&gt;</description><category>mathjax</category><category>rst</category><guid>/posts/rst-test/</guid><pubDate>Sun, 04 Feb 2018 12:03:54 GMT</pubDate></item><item><title>Non-strange spectral functions, ALEPH, 2014</title><link>/posts/aleph-non-strange-2014/</link><dc:creator>Alberto Lusiani</dc:creator><description>&lt;p&gt;&lt;a href="/posts/aleph-non-strange-2014/"&gt;Read more…&lt;/a&gt; (1 min remaining to read)&lt;/p&gt;</description><category>ALEPH</category><category>axial</category><category>data</category><category>mathjax</category><category>non-strange</category><category>vector</category><guid>/posts/aleph-non-strange-2014/</guid><pubDate>Sat, 06 Jan 2018 12:00:00 GMT</pubDate></item></channel></rss>
