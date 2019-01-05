@@ -9,6 +9,8 @@
 .. type: text
 -->
 
+<!-- TEASER_END -->
+
 ## [Update of the ALEPH non-strange spectral functions from hadronic $\tau$ decays](https://inspirehep.net/record/1267648)
 
 Michel Davier (Orsay, LAL), Andreas Höcker (CERN), Bogdan Malaescu
