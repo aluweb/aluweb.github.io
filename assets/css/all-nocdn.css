@@ -8094,3 +8094,7 @@ div.cell {
   font-weight: normal;
   background-color: #335577;
 }
+
+blockquote {
+  border-left: 5px solid #aaaaaa;
+}

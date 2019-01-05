@@ -48,10 +48,10 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <b class="caret"></b></a>
             <ul class="dropdown-menu">
 <li>
-<a href="page1">asciidoc test 1</a>
+<a href="asciidoc-test">asciidoc test</a>
                     </li>
 <li>
-<a href="page2">R notebook test</a>
+<a href="E989-crystal-energy">E989 crystal energy in fill</a>
             </li>
 </ul>
 </li>
@@ -99,16 +99,29 @@
 <a class="reference external image-reference" href="images/nikola_tesla_quote.jpg"><img alt="/images/nikola_tesla_quote.tn.jpg" src="images/nikola_tesla_quote.tn.jpg"></a>
 <p class="caption">Nikola Tesla, one of the greatest inventors ever.</p>
 </div>
-<p>Hello and welcome to my new personal blog that I'm just creating using a site generator called <a class="reference external" href="http://getnikola.com/">Nikola</a>. Indeed! it's named after the famous scientist and inventor <strong>Nikola Tesla</strong>, but that wasn't the only reason why I've decided for this interesting tool. Recently, I was tempted to set a personal blog, where I could post things I'm currently working on, or my ideas before I totally forget them. Of course, I was faced with the problem what site engine I should choose, because there is truly lots of options in the year of 2016.</p>
-<p>inline math <span class="math">\(\frac{\sum_{t=0}^{N}f(t,k) }{N}\)</span> and so</p>
+<p>Test site built with <a class="reference external" href="http://getnikola.com/">Nikola</a>.</p>
+<p>Het is niet nodig te hopen om te ondernemen, noch te slagen om te
+volharden.
+We must therefore glean up our experiments in this science from
+a cautious observation of human life, and take them as they
+appear in the common course of the world, by men’s behaviour in
+company, in affairs, and in their pleasures. Where experiments
+of this kind are judiciously collected and compared, we may hope
+to establish on them a science, which will not be inferior in
+certainty, and will be much superior in utility to any other of
+human comprehension.</p>
 <p>inline math with \displaystyle <span class="math">\(\displaystyle\frac{\sum_{t=0}^{N}f(t,k) }{N}\)</span> and so</p>
-<p>Before I start discussing my experience with Nikola, let me explain why I've decided for this tool. I'm a very picky person when it comes to customization, so I looked for a tool that would satisfy all my needs, particularly...</p>
+<div class="section" id="example-item-list">
+<h2>Example item list</h2>
 <ul class="li-smallskip simple">
-<li>Have full control over every aspect of the style and layout.</li>
-<li>I'm not a fan of phones, however smart they try to appear. So, mobile-first, ultra-responsive web designs that hide all control elements and relevant information cannot really attract me.</li>
-<li>Enable to insert both blog posts and non-blog pages.</li>
-<li>Be able to type math (ideally using Syntax of <strong>TeX</strong>), because mathematics is indeed the language of nature, thus the most universal language ever :)</li>
-<li>Use native <strong>Jupyter</strong> files (.ipynb) as source files for the site. <span class="text-info">Jupyter is a very handy web application that allows you to create and share documents containing live code, equations, visualizations and explanatory text. It supports many languages including Python, which makes it a perfect tool for writing scientific articles.</span>
+<li>Both blog posts and non-blog pages can be included.</li>
+<li>math formulas with TeX-like syntax can be used</li>
+<li>
+<strong>Jupyter</strong> notebooks can be published. <span class="text-info">Jupyter is a
+very handy web application that allows you to create and share
+documents containing live code, equations, visualizations and
+explanatory text. It supports many languages including Python,
+which makes it a perfect tool for writing scientific articles.</span>
 </li>
 <li>text-primary  <span class="text-primary">Jupyter is a very handy web application</span>
 </li>
@@ -120,9 +133,12 @@
 </li>
 <li>text-danger  <span class="text-danger">Jupyter is a very handy web application</span>
 </li>
-<li>Open source tool without any commercial ads is preferred (very important in todays over-commercialized world).</li>
 </ul>
-<!-- TEASER_END --><p>Side note: <span class="text-info">An example how Nikola can render math using MathJax plugin. You can right-click the equation, get menu and see the TeX code (Show Math As - TeX Commands). Apropos, these are the famous Maxwell's equations describing electromagnetic field, probably one of the most favourite equations of Nikola Tesla :)</span></p>
+<!-- TEASER_END -->
+</div>
+<div class="section" id="math-examples">
+<h2>Math examples</h2>
+<p>Side note: <span class="text-info">An example how Nikola can render math using MathJax plugin. You can right-click the equation, get menu and see the TeX code (Show Math As - TeX Commands). Apropos, these are the famous Maxwell's equations describing electromagnetic field, probably one of the most favourite equations of Nikola Tesla :)</span></p>
 <div class="math">
 \begin{align*}
 \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
@@ -131,133 +147,84 @@
 \nabla \cdot \vec{\mathbf{B}} &amp; = 0
 \end{align*}
 </div>
-<p>Then, considering the very few requirements above, I've tried to choose the optimal website engine for my needs. Basically, I considered these options...</p>
+<div class="section" id="options-example">
+<h3>Options example</h3>
 <dl class="docutils">
-<dt>Use existing CMS (Content Management System)</dt>
+<dt>Option pros and cons <p></p>
+</dt>
 <dd>
 <ul class="pros-list first simple">
-<li>There is plenty of existing CMS to choose from like Wordpress, Drupal, Joomla, etc.</li>
-<li>They are supposed to be the most user friendly and easy way for starting a new blog.</li>
+<li>pro text 1</li>
+<li>pro text 2</li>
 </ul>
 <ul class="cons-list last simple">
-<li>I've never tried any CMS, but I guess options for customization will be limited since they are designed for users who know nothing about HTML or CSS. Also, CMS tend to be very complex and script-heavy, so it would take lots of effort to do the desired customizations.</li>
-<li>On CMS sites, every time a reader wants a page, a whole lot of database queries are made. Then a whole pile of code chews that data, and HTML is produced, which is sent to the user. All that requires time and server resources.</li>
-<li>And the most critical problem, I haven't found any CMS that would support native Jupyter files (.ipynb).</li>
+<li>con text 1</li>
+<li>con text 2</li>
 </ul>
 </dd>
-<dt>Design a website from scratch</dt>
-<dd>
-<ul class="pros-list first simple">
-<li>This approach should mean the best control over content since I could design the website exactly for my needs.</li>
-</ul>
-<ul class="cons-list last simple">
-<li>It would be probably so time-consuming that would be hard to finish even a basic framework.</li>
-</ul>
-</dd>
-<dt>Use static site generator Nikola</dt>
-<dd><ul class="pros-list first last simple">
-<li>The last option I considered was a generator of static pages. Yes, I thought this option is obsolete in 2016 and features limited, but I was wrong!</li>
-<li>Nikola is written in Python that I'm familiar with, I also use it for coding Blender addons and Jypyter articles.</li>
-<li>Nikola supports Jupyter files (.ipynb) as source files for your site (Yay!).</li>
-<li>The options for customization are endless with Nikola, you own your files, and you can do anything with them.</li>
-<li>That all means you can create any possible look and feel of the site you might dream about.</li>
-<li>The obvious advantage is security since static pages don't use any heavy server-side framework.</li>
-</ul></dd>
 </dl>
-<div class="section" id="getting-to-know-nikola">
-<h2>Getting to know Nikola</h2>
+</div>
+</div>
+<div class="section" id="header-1">
+<h2>Header 1</h2>
 <div class="thumbnail figure align-right">
 <a class="reference external image-reference" href="images/nikola_tesla_quote2.jpg"><img alt="/images/nikola_tesla_quote2.tn.jpg" src="images/nikola_tesla_quote2.tn.jpg"></a>
 <p class="caption">Nikola Tesla in his laboratory.</p>
 </div>
-<p>Nikola is powered by <a class="reference external" href="https://www.python.org/">Python</a>, so first you need to make sure Python is installed on your computer. Then, installing Nikola package is just question of few console commands. It's all well documented <a class="reference external" href="https://getnikola.com/getting-started.html">here</a>.</p>
-<p>When everything installed and ready, we can create our first site by command <code>nikola init mysite</code>. Inserting posts and pages is basically done by adding textual source files (.rst, .md,...) into the dedicated folders. The names of these folders and all other site-related configurations can be found in the file <code>conf.py</code>. After we configured our site and added some content, we can just generate the final output by the neat command <code>nikola build</code> and we are done :) To display the site in your default browser, you can use <code>nikola serve -a 127.0.0.1 -b</code>.</p>
-<p>Well, that was quite easy, but now it comes the harder part if we want to create an unique look for our new site.</p>
-<div class="section" id="creating-custom-look-for-nikola-site">
-<h3>Creating custom look for Nikola site</h3>
-<p>There are some ready to use themes for Nikola, but really none of them corresponded to what I wanted to create. The good thing is that you don't need to create a new theme from scratch, but you can inherit it from an existing theme. All you need to do is just copy files you want to modify from an existing theme into a new folder inside <code>[themes]</code>. Then the folder tree for the new theme should look similar to this...</p>
-<pre class="code text"><a name="rest_code_253ad780546946cda1034fb8c1fd8e72-1"></a>[themes]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-2"></a>    [mytheme]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-3"></a>        [assets]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-4"></a>            [css]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-5"></a>                bootstrap.css
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-6"></a>                bootstrap.min.css
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-7"></a>                custom.css
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-8"></a>                nikola_ipython.css
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-9"></a>                theme.css
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-10"></a>            [img]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-11"></a>            [js]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-12"></a>                custom.js
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-13"></a>        [templates]
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-14"></a>            base.tmpl
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-15"></a>        bundles
-<a name="rest_code_253ad780546946cda1034fb8c1fd8e72-16"></a>        parent
+<p>Het is niet nodig te hopen om te ondernemen, noch te slagen om te
+volharden.
+We must therefore glean up our experiments in this science from
+a cautious observation of human life, and take them as they
+appear in the common course of the world, by men’s behaviour in
+company, in affairs, and in their pleasures. Where experiments
+of this kind are judiciously collected and compared, we may hope
+to establish on them a science, which will not be inferior in
+certainty, and will be much superior in utility to any other of
+human comprehension.</p>
+<div class="section" id="header-2">
+<h3>Header 2</h3>
+<p>Example <tt class="docutils literal">code block</tt>:</p>
+<pre class="code text"><a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-1"></a>[themes]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-2"></a>    [mytheme]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-3"></a>        [assets]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-4"></a>            [css]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-5"></a>                bootstrap.css
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-6"></a>                bootstrap.min.css
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-7"></a>                custom.css
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-8"></a>                nikola_ipython.css
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-9"></a>                theme.css
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-10"></a>            [img]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-11"></a>            [js]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-12"></a>                custom.js
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-13"></a>        [templates]
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-14"></a>            base.tmpl
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-15"></a>        bundles
+<a name="rest_code_1a155f0ab9b447ccb1acf5246674115e-16"></a>        parent
 </pre>
-<p>I decided to create a theme based on <strong>Bootstrap3</strong> framework, which must be specified in the file <code>parent</code>. Basically, the look of the site based on Bootstrap is given by file with CSS styles named <code>bootstrap.css</code>. I really don't recommend to modify this file itself since it's a really huge file (over 6000 lines). But we can use this useful online application <a class="reference external" href="http://bootstrap-live-customizer.com">http://bootstrap-live-customizer.com</a> that enables to play with all the colors and styles and then generate the desired CSS files for us. For any later fine-tuning, I've added files <code>custom.css</code>, <code>theme.css</code> to override existing styles or add some new ones, and make things better arranged. If we are using Jupyter files, we can specify their styling by <code>nikola_ipython.css</code>.</p>
-<p>Well, we have done some styling, but how to change the layout of our site? That's also easy to do with Nikola. We can use some template files from an existing theme and copy them into folder <code>[templates]</code>. Especially <code>base.tmpl</code> is essential, because it defines the actual layout for the whole site. Also, we can add other templates and modify the layout for posts, indexes, etc.</p>
-</div>
-<div class="section" id="markdown-vs-restrtructuredtext">
-<h3>Markdown vs. reStrtructuredText</h3>
-<p>Before starting to create the actual content for our new site, we need to decide which format of source files to use for our post and pages. Nikola supports lots of these textual formats, but probably the most useful is <strong>Markdown</strong> (.md) or <strong>reStructuredText - reST</strong> (.rst). I've been hesitating a lot which one would be better for my needs. Even-though I'm writing this post using reST, I'm still not so sure which one is better. Let me try to summarize pros and cons for both formats...</p>
-<dl class="docutils">
-<dt>Markdown</dt>
-<dd>
-<ul class="pros-list first simple">
-<li>This format seems to be more popular and is used by lots of web applications.</li>
-<li>You can directly insert HTML code without any redundant directives.</li>
-<li>Syntax for hyperlinks is really simple e.g. <code>[Markdown](https://en.wikipedia.org/wiki/Markdown)</code>
-</li>
-</ul>
-<ul class="cons-list last simple">
-<li>Markdown eats every second backslash on output. So, if you want symbol <code>\\</code> for break-lines in TeX math formulas, you need to type <code>\\\\</code> in Markdown, which is really annoying and redundant work.</li>
-<li>I haven't found any elegant way how to insert styled images and figures, apart of inserting plain HTML code.</li>
-</ul>
-</dd>
-<dt>reStrtructuredText</dt>
-<dd>
-<ul class="pros-list first simple">
-<li>reStrtructuredText seems to be the default and preferred format for Nikola.</li>
-<li>No problem with double backslash <code>\\</code> which is nice for inserting TeX math.</li>
-<li>There are lots of useful directives for inserting code-blocks, images, figures, etc.</li>
-</ul>
-<ul class="cons-list last simple">
-<li>The official documentation for reStrtructuredText is very poor and not well arranged.</li>
-<li>I didn't find a way how to explicitly specify a section header (h1, h2, ...). Header levels seem to be just derived from the structure of document.</li>
-<li>To insert plain HTML, you need to use a special directive.</li>
-</ul>
-</dd>
-</dl>
 </div>
 <div class="section" id="mathjax-vs-katex">
 <h3>MathJax vs. KaTeX</h3>
-<p>There are basically two options for rending math. <a class="reference external" href="https://www.mathjax.org/">MathJax</a> is the default option for Nikola and also for Jupyter notebooks. It has nice render quality and I haven't faced any serious problems using it. The only problem seem to be quite slow rendering time, and also the need to re-render all math after reloading the page.</p>
+<p>There are basically two options for rending math. <a class="reference external" href="https://www.mathjax.org/">MathJax</a> is the default option for Nikola and also for Jupyter notebooks.</p>
 <p>On the other side, <a class="reference external" href="https://github.com/Khan/KaTeX">KaTeX</a> seems to be much faster to render, and there is no obvious re-rendering after page reloading. The font quality is also nice or maybe even better than MathJax. But I have faced serious problems that made me give up using KaTeX for my site. For example, I wasn't able to insert inline math using standard <code>$..$</code> directive, and TeX environments produced by Nikola are also not supported. All this makes KaTeX still too immature for usage with Nikola and Jupyter.</p>
 </div>
-<div class="section" id="deploying-nikola-site-to-github">
-<h3>Deploying Nikola Site to GitHub</h3>
-<p>When we are happy with our new site, we just need to choose a webhosting service. We have really lots of options here, because Nikola generates static pages, thus doesn't require to run any server-side scripts. Finally, I've chosen <strong>GitHub</strong>, because it offers free space for static pages and doesn't contain any annoying commercial ads.</p>
-<p>GitHub is originally a service for version control system called <strong>Git</strong>, and the possibility for hosting static pages is quite new. Therefore, to use this service, one need to get familiar with Git protocol first. This makes things a bit more complicated in contrast to other webhostings, where you can just use FTP for uploading your site. On the other side, if you are interested in programming, learning to use Git is definitely worth of it.</p>
-<p>So, to deploy a new site to GitHub, first we must have a GitHub account. Then, we need to create a new repository named after the site URL - in my case I created a repository named <code>meshlogic.github.io</code>, because my user name is "meshlogic". Now, we can do some basic customization in the Nikola config file <code>conf.py</code>.</p>
-<pre class="code python"><a name="rest_code_03927056f32d42829fc40c918f52bb03-1"></a><span class="n">GITHUB_DEPLOY_BRANCH</span> <span class="o">=</span> <span class="s1">'master'</span>  <span class="c1"># Deploy the Nikola output to the master branch of your repository</span>
-<a name="rest_code_03927056f32d42829fc40c918f52bb03-2"></a><span class="n">GITHUB_SOURCE_BRANCH</span> <span class="o">=</span> <span class="s1">'src'</span>     <span class="c1"># Deploy Nikola project source files to src branch of your repository</span>
-<a name="rest_code_03927056f32d42829fc40c918f52bb03-3"></a><span class="n">GITHUB_COMMIT_SOURCE</span> <span class="o">=</span> <span class="bp">True</span>
+<div class="section" id="python-code-block">
+<h3>Python code block</h3>
+<pre class="code python"><a name="rest_code_3f86a854df024cb697d4b91683b71df4-1"></a><span class="n">GITHUB_DEPLOY_BRANCH</span> <span class="o">=</span> <span class="s1">'master'</span>  <span class="c1"># Deploy the Nikola output to the master branch of your repository</span>
+<a name="rest_code_3f86a854df024cb697d4b91683b71df4-2"></a><span class="n">GITHUB_SOURCE_BRANCH</span> <span class="o">=</span> <span class="s1">'src'</span>     <span class="c1"># Deploy Nikola project source files to src branch of your repository</span>
+<a name="rest_code_3f86a854df024cb697d4b91683b71df4-3"></a><span class="n">GITHUB_COMMIT_SOURCE</span> <span class="o">=</span> <span class="bp">True</span>
 </pre>
-<p>When everything ready to deploy, we open console in the path of our Nikola project and start using Git. Of course, you need to have Git installed on your computer and available from command line.</p>
-<pre class="code console"><a name="rest_code_8e65cec642364c87bc689fb565f90670-1"></a><span class="gp">$</span> git config --global user.name <span class="s2">"USER_NAME"</span>
-<a name="rest_code_8e65cec642364c87bc689fb565f90670-2"></a><span class="gp">$</span> git config --global user.email <span class="s2">"USER_EMAIL"</span>
-<a name="rest_code_8e65cec642364c87bc689fb565f90670-3"></a><span class="gp">$</span> git init
-<a name="rest_code_8e65cec642364c87bc689fb565f90670-4"></a><span class="gp">$</span> git remote add origin https://github.com/meshlogic/meshlogic.github.io.git
-<a name="rest_code_8e65cec642364c87bc689fb565f90670-5"></a><span class="gp">$</span> git pull origin master --allow-unrelated-histories
+</div>
+<div class="section" id="console-code-block">
+<h3>Console code block</h3>
+<pre class="code console"><a name="rest_code_f6a451706edc4a15bc081ba8cac951ae-1"></a><span class="gp">$</span> git config --global user.name <span class="s2">"USER_NAME"</span>
+<a name="rest_code_f6a451706edc4a15bc081ba8cac951ae-2"></a><span class="gp">$</span> git config --global user.email <span class="s2">"USER_EMAIL"</span>
+<a name="rest_code_f6a451706edc4a15bc081ba8cac951ae-3"></a><span class="gp">$</span> git init
 </pre>
-<p>Note that <code>git init</code> creates a hidden folder <code>[.git]</code> inside your project folder. <code>git remote</code> makes a branch named "origin" linked to your GitHub repository specified by its URL. <code>git pull</code> seems to be necessary to run even when your repository is still empty (at least in my case it was).</p>
-<p>Finally, we can run simple command <code>nikola github_deploy</code>, which commits the output and pushes it to GitHub. Now if everything went right, your site should be running :)</p>
 </div>
 </div>
 <div class="section" id="conclusion">
 <h2>Conclusion</h2>
-<p>Static site generator <strong>Nikola</strong> is indeed a very interesting tool! It's very flexible and in most cases you can achieve exactly what you want, like creating a custom look for every aspect of your website. Also, it's the only system, I know about, that enables to use native <strong>Jupyter</strong> files (.ipynb) for posts and pages.</p>
-<p>Of course, there is always space for improvements. For example, I don't like that by defaults, Nikola requires to maintain two or three separate folder trees. One folder tree for textual source files, another one for images and another for files, which seems to be a redundant work. Eventually, I was able to override that settings, and now I can maintain only a single folder tree that contains all post-related files.</p>
-<p>Indeed, it's questionable what's the better approach for staring a new website, to use highly-customizable system like Nikola or some more popular CMS engine like Wordpress? But that just depends on everyone's requirements and preferences :)</p>
+<p>That's all.</p>
 </div>
 </div>
     </div>
