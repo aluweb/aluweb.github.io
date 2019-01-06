@@ -67,14 +67,10 @@
  </url>
  <url>
   <loc>/tags/</loc>
-  <lastmod>2019-01-06T09:52:00Z</lastmod>
+  <lastmod>2019-01-06T10:57:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/aleph/</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/axial/</loc>
   <lastmod>2019-01-05T10:55:00Z</lastmod>
  </url>
  <url>
@@ -82,16 +78,8 @@
   <lastmod>2019-01-05T10:55:00Z</lastmod>
  </url>
  <url>
-  <loc>/tags/math/</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
- </url>
- <url>
   <loc>/tags/mathjax/</loc>
   <lastmod>2019-01-05T10:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/nikola/</loc>
-  <lastmod>2019-01-06T09:52:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/non-strange/</loc>
@@ -99,10 +87,6 @@
  </url>
  <url>
   <loc>/tags/rst/</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/vector/</loc>
   <lastmod>2019-01-05T10:55:00Z</lastmod>
  </url>
 </urlset>
