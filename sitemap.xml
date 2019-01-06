@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>/</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T09:55:00Z</lastmod>
  </url>
  <url>
   <loc>/E989-crystal-energy/</loc>
@@ -24,6 +24,22 @@
  <url>
   <loc>/asciidoc-test/</loc>
   <lastmod>2019-01-05T10:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/categories/</loc>
+  <lastmod>2019-01-06T09:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/categories/math/</loc>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/categories/math/notebook/</loc>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/categories/nikola/</loc>
+  <lastmod>2019-01-06T09:55:00Z</lastmod>
  </url>
  <url>
   <loc>/galleries/</loc>
@@ -51,7 +67,7 @@
  </url>
  <url>
   <loc>/tags/</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T09:52:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/aleph/</loc>
@@ -72,6 +88,10 @@
  <url>
   <loc>/tags/mathjax/</loc>
   <lastmod>2019-01-05T10:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>/tags/nikola/</loc>
+  <lastmod>2019-01-06T09:52:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/non-strange/</loc>

@@ -6,47 +6,63 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>/categories/math.xml</loc>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>/categories/math/notebook.xml</loc>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>/categories/nikola.xml</loc>
+  <lastmod>2019-01-06T09:55:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>/galleries/rss.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T10:20:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/rss.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/aleph.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-05T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/axial.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-05T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/data.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-05T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/math.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-05T17:30:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/mathjax.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T10:21:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>/tags/nikola.xml</loc>
+  <lastmod>2019-01-06T09:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/non-strange.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-05T17:32:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/rst.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-06T09:52:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/vector.xml</loc>
-  <lastmod>2019-01-05T10:55:00Z</lastmod>
+  <lastmod>2019-01-05T17:32:00Z</lastmod>
  </sitemap>
 </sitemapindex>
