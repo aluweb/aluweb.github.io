@@ -2,7 +2,7 @@
 .. slug: rst-test
 .. date: 2018-02-04 13:03:54 UTC+01:00
 .. tags: mathjax, rst
-.. category: 
+.. category: nikola
 .. link: 
 .. description: test reStructuredText features
 .. type: text

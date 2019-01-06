@@ -3,9 +3,7 @@
 from __future__ import unicode_literals
 import time
 
-# !! This is the configuration of Nikola. !! #
-# !!  You should edit it to your liking.  !! #
-
+# !! aluweb test site Nikola configuration !! #
 
 # ! Some settings can be different in different languages.
 # ! A comment stating (translatable) is used to denote those.
@@ -25,7 +23,7 @@ SITE_URL = "https://aluweb.github.io/"
 SITE_URL = "/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://lusiani.web.cern.ch/lusiani/"
+# BASE_URL = ""
 BLOG_EMAIL = "alusiani at gmail.com"
 BLOG_DESCRIPTION = ""  # (translatable)
 
@@ -131,6 +129,8 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 NAVIGATION_LINKS = {
   DEFAULT_LANG: (
+    ## ("link://post_path/posts", "Posts"),
+    ("/posts/", "Posts"),
     (
       (
         ("link://slug/asciidoc-test", "asciidoc test"),
@@ -138,10 +138,10 @@ NAVIGATION_LINKS = {
       ),
       "Pages"
     ),
-    ("/posts/", "Posts"),
-    ("/tags/", "Tags"),
-    ("/archive/", "Archive"),
-    ("/rss.xml", "RSS"),
+    ("link://category_index", "Categories"),
+    ("link://tag_index", "Tags"),
+    ("link://archive", "Archive"),
+    ("link://index_rss", "RSS"),
   ),
 }
 
@@ -198,7 +198,11 @@ PAGES = (
   ("pages/*.html",   "", "story.tmpl"),
 )
 
-# And to avoid a conflict because blogs try to generate /index.html
+# Final location for the main blog page and sibling paginated pages is
+# output / TRANSLATION[lang] / INDEX_PATH / index-*.html
+# INDEX_PATH = ""
+
+# set blog root path to "posts" to avoid conflits with non-blog pages
 INDEX_PATH = "posts"
 
 # Below this point, everything is optional
@@ -310,11 +314,11 @@ SHOW_BLOG_TITLE = True
 
 # Writes tag cloud data in form of tag_cloud_data.json.
 # Warning: this option will change its default value to False in v8!
-WRITE_TAG_CLOUD = True
+WRITE_TAG_CLOUD = False
 
 # Generate pages for each section. The site must have at least two sections
 # for this option to take effect. It wouldn't build for just one section.
-POSTS_SECTIONS = True
+POSTS_SECTIONS = False
 
 # Setting this to False generates a list page instead of an index. Indexes
 # are the default and will apply GENERATE_ATOM if set.
@@ -419,6 +423,7 @@ HIDDEN_TAGS = ['mathjax']
 # output / TRANSLATION[lang] / CATEGORY_PATH / CATEGORY_PREFIX category.xml (RSS feed for a category)
 # (translatable)
 # CATEGORY_PATH = "categories"
+CATEGORY_PATH = "categories"
 # CATEGORY_PREFIX = "cat_"
 CATEGORY_PREFIX = ""
 
@@ -427,7 +432,7 @@ CATEGORY_PREFIX = ""
 # using a forward slash ('/') to separate paths. Use a backslash ('\') to escape
 # a forward slash or a backslash (i.e. '\//\\' is a path specifying the
 # subcategory called '\' of the top-level category called '/').
-CATEGORY_ALLOW_HIERARCHIES = False
+CATEGORY_ALLOW_HIERARCHIES = True
 # If CATEGORY_OUTPUT_FLAT_HIERARCHY is set to True, the output written to output
 # contains only the name of the leaf category and not the whole path.
 CATEGORY_OUTPUT_FLAT_HIERARCHY = False
@@ -488,10 +493,6 @@ HIDDEN_CATEGORIES = []
 # The author will not be displayed on the author list page and posts.
 # Tag pages will still be generated.
 HIDDEN_AUTHORS = ['Guest']
-
-# Final location for the main blog page and sibling paginated pages is
-# output / TRANSLATION[lang] / INDEX_PATH / index-*.html
-# INDEX_PATH = ""
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
