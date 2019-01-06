@@ -129,7 +129,6 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 NAVIGATION_LINKS = {
   DEFAULT_LANG: (
-    ## ("link://post_path/posts", "Posts"),
     ("/posts/", "Posts"),
     (
       (
@@ -138,12 +137,31 @@ NAVIGATION_LINKS = {
       ),
       "Pages"
     ),
-    ("link://category_index", "Categories"),
-    ("link://tag_index", "Tags"),
-    ("link://archive", "Archive"),
+    ("/tags/", "Tags"),
+    ("/archive/", "Archive"),
+    ("/categories/", "Categories"),
     ("link://index_rss", "RSS"),
   ),
 }
+
+#
+# could not find how to get a path handler for posts
+# ("link://post_path/posts", "Posts"),
+#
+
+#
+# not using path handlers above since with them highlighting of the link
+# does not work in Nikola v7.8.15.  It depends on the test
+# in nikola/data/themes/bootstrap3/templates/pagination_helper.tmpl:
+#
+# <li ${' class="active"' if i == current_page else ''}>
+#   <a href="${link}">${i + 1}${' <span class="sr-only">(current)</span>'
+#  if i == current_page else ''}</a></li>
+#
+# ("link://category_index", "Categories"),
+# ("link://tag_index", "Tags"),
+# ("link://archive", "Archive"),
+#
 
 # Name of the theme to use.
 THEME = "alusiani"
