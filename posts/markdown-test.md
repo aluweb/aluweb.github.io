@@ -2,9 +2,9 @@
 .. title: markdown math test
 .. slug: markdown-math-test
 .. date: 2018-09-01 13:00:00 UTC+01:00
-.. tags: mathjax
+.. has_math: true
 .. category: math
-.. link: 
+.. link:
 .. description: test markdown math description
 .. type: text
 -->

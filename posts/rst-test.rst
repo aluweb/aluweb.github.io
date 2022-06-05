@@ -1,9 +1,10 @@
 .. title: reStructuredText test
 .. slug: rst-test
 .. date: 2018-02-04 13:03:54 UTC+01:00
-.. tags: mathjax, rst
+.. tags: rst
+.. has_math: true
 .. category: nikola
-.. link: 
+.. link:
 .. description: test reStructuredText features
 .. type: text
 

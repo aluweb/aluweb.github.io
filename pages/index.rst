@@ -1,7 +1,7 @@
 .. title: Main page
 .. slug: index
 .. date: 2017-09-09 23:39:43 UTC+02:00
-.. tags: mathjax
+.. has_math: true
 .. category:
 .. link:
 .. description: test Nikola
@@ -66,7 +66,7 @@ Example item list
     - text-warning  :text-warning:`Jupyter is a very handy web application`
 
     - text-danger  :text-danger:`Jupyter is a very handy web application`
-      
+
 .. TEASER_END
 
 Math examples

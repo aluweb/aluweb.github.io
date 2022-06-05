@@ -1,15 +1,12 @@
-<!--
-.. title: Non-strange spectral functions, ALEPH, 2014
-.. slug: aleph-non-strange-2014
-.. date: 2018-01-06 13:00:00 UTC+01:00
-.. tags: mathjax, data, ALEPH, non-strange
-.. category: 
-.. link: 
-.. description: Update of ALEPH 2005 publication with new unfolding method
-.. type: text
--->
-
-<!-- TEASER_END -->
+---
+title: Non-strange spectral functions, ALEPH, 2014
+slug: aleph-non-strange-2014
+date: 2022-04-30
+tags: HEPData
+category: docs
+has_math: true
+---
+<a /><!-- TEASER_END -->
 
 ## [Update of the ALEPH non-strange spectral functions from hadronic $\tau$ decays](https://inspirehep.net/record/1267648)
 

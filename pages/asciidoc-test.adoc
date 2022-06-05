@@ -2,9 +2,9 @@
 .. title: asciidoc test
 .. slug: asciidoc-test
 .. date: 2017-09-09 23:39:43 UTC+02:00
-.. tags: mathjax
+.. has_math: true
 .. category: math
-.. link: 
+.. link:
 .. description: asciidoc test description
 .. type: text
 ////
@@ -22,7 +22,7 @@ email-name at email domain +
 Institution +
 address location +
 city, district, country
-! 
+!
 email-name2 at email domain2 +
 Institution2 +
 address location2 +
