@@ -6,47 +6,39 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>/categories/math.xml</loc>
-  <lastmod>2019-01-06T10:21:00Z</lastmod>
+  <loc>/categories/docs.xml</loc>
+  <lastmod>2022-06-05T09:29:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>/categories/math/notebook.xml</loc>
-  <lastmod>2019-01-06T10:21:00Z</lastmod>
+  <loc>/categories/math.xml</loc>
+  <lastmod>2022-06-05T09:21:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/nikola.xml</loc>
-  <lastmod>2019-01-06T09:55:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/galleries/rss.xml</loc>
-  <lastmod>2019-01-06T13:45:00Z</lastmod>
+  <lastmod>2022-06-05T09:23:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/rss.xml</loc>
-  <lastmod>2019-01-06T10:57:00Z</lastmod>
+  <lastmod>2022-06-05T09:41:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2019-01-06T13:45:00Z</lastmod>
+  <lastmod>2022-06-05T09:48:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>/tags/aleph.xml</loc>
-  <lastmod>2019-01-06T10:57:00Z</lastmod>
+  <loc>/tags/e989.xml</loc>
+  <lastmod>2022-06-05T09:41:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>/tags/data.xml</loc>
-  <lastmod>2019-01-06T10:57:00Z</lastmod>
+  <loc>/tags/hepdata.xml</loc>
+  <lastmod>2022-06-05T09:29:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/mathjax.xml</loc>
-  <lastmod>2019-01-06T10:57:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/tags/non-strange.xml</loc>
-  <lastmod>2019-01-06T10:57:00Z</lastmod>
+  <lastmod>2022-06-05T09:23:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/rst.xml</loc>
-  <lastmod>2019-01-06T09:52:00Z</lastmod>
+  <lastmod>2022-06-05T09:23:00Z</lastmod>
  </sitemap>
 </sitemapindex>
