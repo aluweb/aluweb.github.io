@@ -7,38 +7,34 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>/categories/docs.xml</loc>
-  <lastmod>2022-06-05T09:29:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/math.xml</loc>
-  <lastmod>2022-06-05T09:21:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/categories/nikola.xml</loc>
-  <lastmod>2022-06-05T09:23:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/rss.xml</loc>
-  <lastmod>2022-06-05T09:41:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/sitemap.xml</loc>
-  <lastmod>2022-06-05T09:48:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/e989.xml</loc>
-  <lastmod>2022-06-05T09:41:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/hepdata.xml</loc>
-  <lastmod>2022-06-05T09:29:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>/tags/mathjax.xml</loc>
-  <lastmod>2022-06-05T09:23:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>/tags/rst.xml</loc>
-  <lastmod>2022-06-05T09:23:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </sitemap>
 </sitemapindex>

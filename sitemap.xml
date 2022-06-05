@@ -7,86 +7,66 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>/</loc>
-  <lastmod>2022-06-05T09:17:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/archive.html</loc>
-  <lastmod>2022-06-05T09:48:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/asciidoc-test/</loc>
-  <lastmod>2022-06-05T09:17:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/</loc>
-  <lastmod>2022-06-05T09:29:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/docs/</loc>
-  <lastmod>2022-06-05T09:29:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/math/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
- </url>
- <url>
-  <loc>/categories/math/notebook/</loc>
-  <lastmod>2022-06-05T09:04:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/categories/nikola/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/</loc>
-  <lastmod>2022-06-05T09:32:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/E989-crystal-energy/</loc>
-  <lastmod>2022-06-05T09:32:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/aleph-non-strange-2014/</loc>
-  <lastmod>2022-06-05T09:29:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/markdown-math-test/</loc>
-  <lastmod>2022-06-05T09:21:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/posts/rst-test/</loc>
-  <lastmod>2022-06-05T09:23:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/</loc>
-  <lastmod>2022-06-05T09:32:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/aleph/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/data/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/e989/</loc>
-  <lastmod>2022-06-05T09:32:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/hepdata/</loc>
-  <lastmod>2022-06-05T09:29:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/mathjax/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
- </url>
- <url>
-  <loc>/tags/non-strange/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
  <url>
   <loc>/tags/rst/</loc>
-  <lastmod>2022-06-05T09:08:00Z</lastmod>
+  <lastmod>2022-06-05T13:09:00Z</lastmod>
  </url>
 </urlset>
